@@ -2,11 +2,11 @@
     background-color: #282727;
     top: 0;
     padding: 10px;
-    height: 110px;
+    height: 155px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 16px;
     border-radius: 5px;
+    align-items: center;
 }
 .net-profit{
     color: rgb(194, 194, 194); 

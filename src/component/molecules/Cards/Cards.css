@@ -10,9 +10,7 @@
     border-radius: 5px;
     margin-right: 5px;
 }
-.card-item1:last-child{
-    margin-right: 0;
-}
+
 
 h2{
     font-size: 10px;
@@ -22,6 +20,51 @@ h1{
     font-size: 25px;
     color: white;
 }
+@media only screen and (min-width: 800px) {
+    .card-item1{
+        width: 200px;
+        height: 125px;
+        padding: 25px;
+        border-radius: 5px;
+        margin-right: 25px;
+        
+    }
+    .card-item1:last-child{
+        margin-right: 0;
+    }
+    @media only screen and (max-width: 1050px) {
+        .card-item1{
+            width: 200px;
+            height: 150px;
+            padding: 10px;
+            border-radius: 5px;
+            margin-right: 25px;
+            
+        }
+    
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .card-item1{
+        width: 100px;
+        height: 110px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-right: 5px;
+        
+    }
+    h1{
+        font-size: 15px;
+        color: white;
+    }
+    .item{
+        align-items: center;
+    }
+
+}
+
 
 .item{
     display: flex;
@@ -81,4 +124,6 @@ p{
     height: 30px;
     border-radius: 5px;
 }
+
+
 

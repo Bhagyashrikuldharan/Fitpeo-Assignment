@@ -12,19 +12,19 @@ const Content = () => {
     return(
         <div className="main-content">
             <h1 className="heading">Dashboard</h1>
-            <Grid container spacing={2} className="content">
-                <Grid item xs={12} sm={8} className="content-1">
+            <div spacing={2} className="content">
+                <div className="content-1">
                     <Cards/>
                     <DataChart/>
                     <OrderTable/>
-                </Grid>
-                <Grid xs={12} sm={4}  className="content-2">
+                </div>
+                <div className="content-2">
                     <AchivedGoals/>
                     <MenuCard/>
                     <Reviews/>
-                </Grid>
+                </div>
                
-            </Grid>
+            </div>
         </div>
     )
 }

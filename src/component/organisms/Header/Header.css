@@ -24,6 +24,11 @@ nav{
     margin-left: 30px;
     height: 20px;
 }
+@media only screen and (max-width: 600px) {
+    .search-box{
+        width: 140px;
+    } 
+}
 #search-icon{
     color: rgb(194, 194, 194); 
 }
