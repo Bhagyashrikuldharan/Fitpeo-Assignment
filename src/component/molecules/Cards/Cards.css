@@ -1,0 +1,84 @@
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item1{
+    background-color: #282727;
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.card-item1:last-child{
+    margin-right: 0;
+}
+
+h2{
+    font-size: 10px;
+    color: rgb(194, 194, 194); 
+}
+h1{
+    font-size: 25px;
+    color: white;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    display: flex;
+    align-items: center;
+    font-size: 14px; 
+}
+#value1, #value3{
+    color: rgba(63, 229, 129, 0.749);
+}
+#value2, #value4{
+    color: rgb(237, 50, 50);
+}
+
+
+
+#icon1{
+    color: rgb(83, 103, 229);
+    background-color: rgb(84, 84, 152);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#icon2{
+    color: rgba(63, 229, 129, 0.749);
+    background-color:  rgba(43, 120, 74, 0.749);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#icon3{
+    color: rgb(237, 50, 50);
+    background-color: rgb(141, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#icon4{
+    color: rgb(228, 68, 191);
+    background-color: rgb(151, 55, 140);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+

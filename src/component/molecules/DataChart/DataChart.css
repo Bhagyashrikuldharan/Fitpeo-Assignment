@@ -1,0 +1,32 @@
+.chart-container{
+    background-color: #282727;
+    height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#header{
+    font-size: 20px;
+    margin-top: 0;
+}
+.activity{
+    display: flex;
+    justify-content: space-between;
+}
+#button{
+    display: flex;
+    align-items: center;
+    background-color: rgb(110, 108, 108); 
+    color: rgb(194, 194, 194); 
+    width: auto;
+    font-size: 12px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    
+}
+.chart{
+    width: 100%;
+    height: 200px;
+    color: aliceblue;
+}

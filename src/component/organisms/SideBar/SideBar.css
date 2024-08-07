@@ -1,0 +1,35 @@
+.container{
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    margin: 0;
+    height: 100%;
+    position: fixed; 
+}
+#sidebar {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    width: 50px; 
+    background-color: #282727; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: fixed; 
+    top: 35px;
+    left: 0;
+    height: 100%; 
+}
+#sidebar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0; 
+    color: rgb(194, 194, 194);  
+    font-size: 30px; 
+}
+#sidebar li:hover{
+    cursor: pointer;
+}
+#sidebar li.active{
+    color: rgb(50, 135, 247);
+}

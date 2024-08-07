@@ -1,0 +1,23 @@
+.achived-goals{
+    background-color: #282727;
+    top: 0;
+    padding: 10px;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+.net-profit{
+    color: rgb(194, 194, 194); 
+    font-size: 25px;
+}
+#value1{
+    color: rgba(63, 229, 129, 0.749);
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

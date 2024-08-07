@@ -1,0 +1,60 @@
+.table-container{
+    background-color: #282727;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#title{
+    font-size: 20px;
+    margin-top: 0;
+}
+table{
+    width: 100%;
+    border-collapse: collapse; 
+}
+th{
+    text-align: left;
+    color: white;
+}
+td{
+    color: rgb(194, 194, 194); 
+   
+}
+.status-button{
+    border-radius: 25px;
+    border: 1px solid rgb(73, 120, 75);
+    background-color: rgb(37, 88, 37);
+    color: rgb(3, 177, 3);
+}
+.status-cancel{
+    border-radius: 25px;
+    border: 1px solid rgb(119, 35, 35);
+    background-color: rgb(101, 36, 37);
+    color: rgb(214, 70, 87);
+}
+th, td {
+    padding: 8px; 
+    text-align: left; 
+}
+
+.table-row, th {
+    border-bottom: 1px solid #4d4b4b; 
+}
+
+table tr:last-child {
+    border-bottom: none; 
+}
+img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+.name-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+

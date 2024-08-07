@@ -1,0 +1,38 @@
+.feedback-container{
+    width: 100%;
+    background-color: #282727;
+    margin-top: 20px;
+    border-radius: 5px;    
+}
+.feedback{
+    padding: 10px;
+    height: 330px;
+    overflow: auto;
+    
+}
+.feedback::-webkit-scrollbar {
+    display: none;
+}
+#feedback-heading{
+    margin-top: 0;
+    font-size: 20px;
+}
+.feedback-content{
+    border: 1px;
+    border-bottom: 1px solid rgb(80, 79, 79);
+
+}
+.item-1{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+.item-2{
+    color: rgb(194, 194, 194); 
+    font-size: 12px;
+    margin-top: 2px
+};
+
+

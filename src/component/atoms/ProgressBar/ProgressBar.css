@@ -1,0 +1,42 @@
+.progress-bar{
+    width: 80px;
+    aspect-ratio: 1;
+    background-color: #282727;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+
+   
+    
+}
+#percent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(blue calc(var(--value)* 1%), skyblue 0);
+    mask: radial-gradient(white 55%, transparent 0);
+    mask-mode: alpha;
+    -webkit-mask: radial-gradient(#0000 55%, #000 0);
+    -webkit-mask-mode: alpha;
+}
+span{
+    font-size: 10px;
+}
+.progress-bar::after{
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+    color: white;
+    font-size: 20px;
+    align-items: center;
+}

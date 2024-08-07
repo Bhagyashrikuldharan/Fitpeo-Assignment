@@ -1,0 +1,82 @@
+.menu-card{
+    width: 100%;
+    background-color: #282727;
+    margin-top: 20px;
+    border-radius: 5px;   
+}
+.menu-item{
+    padding: 15px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    padding: 0 0 15px 0; 
+}
+.menu-container:last-child {
+    padding: 0 ; 
+}
+.menu-item1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(111, 43, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    .goals-icon1{
+        width: 30px;
+        height: 30px;
+        color: rgb(205, 6, 6);
+      }
+
+}
+.menu-item2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(48, 50, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    .goals-icon2{
+        width: 30px;
+        height: 30px;
+        color: rgb(77, 54, 228);
+      }
+
+}.menu-item3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 80, 91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    .goals-icon3{
+        width: 30px;
+        height: 30px;
+        color: rgb(43, 137, 177);
+      }
+}
+.right-arrow{
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(194, 194, 194); 
+    margin-left: auto;
+    margin-right: 10px;
+}
+.menu-content{
+    font-size: 16px;
+    color: rgb(194, 194, 194); 
+    font-weight: 500;
+}
